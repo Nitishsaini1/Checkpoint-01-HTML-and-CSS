@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+
+body{
+    line-height: 1.5;
+    margin-bottom:  100px;;
+}
+
+/* header */
+
+header{
+    background-color: rgb(7, 25, 41);
+    font-size: 40px;
+    text-align: center;
+}
+.home {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Exercise one */
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+}
+.exercise-01{
+      text-align: center;
+      font-size: 20px;
+}
+.box-01{
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    background-color: #99D8CA;
+    border: 13px solid #5873E2;
+    outline: 9px solid #0D1430; 
+    box-shadow: 0 0 0 30px  #90ffa9; 
+    border-radius: 10px;
+}
+.main-box{
+    text-align: center;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+   background-color: #99D8CA;   
+   border-radius: 50%;
+   display: inline-block;
+   margin: 0 auto;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+.one{
+    background-color: #0D1430;
+}
+.two{
+    background-color: #90ffa9;
+}
+.three{
+    background-color: #5873E2;
+}
+hr{
+    border: 0;
+    border-bottom: 3px dashed #999;
+    margin: 30px 150px 30px 150px;
+}
+ 
+ /* exercise two */
+ .parent-box{
+     width: 660px;
+     margin: 30px auto;
+     border: 2px solid black;
+     font-size: 0px;
+ }
+ .child-box{
+     background-color:grey;
+     width: 200px;
+     height: 180px;
+     margin: 10px;
+     display: inline-block;
+ }
+ .child-box-border{
+    background-color:grey;
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+ }
