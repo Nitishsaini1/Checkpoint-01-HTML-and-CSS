@@ -63,9 +63,11 @@ header{
 }
 .home {
     padding: 10px;
-    color: #fff;
+    color:#fff;
     text-decoration: none;
 }
+
+/* from here home starts  */
 
 /* Exercise one */
 
@@ -86,7 +88,7 @@ h2{
     border: 13px solid #5873E2;
     outline: 9px solid #0D1430; 
     box-shadow: 0 0 0 30px  #90ffa9; 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .main-box{
     text-align: center;
@@ -139,3 +141,60 @@ hr{
     border: 2px solid black;
     box-sizing: border-box;
  }
+
+ /* this is second page of checkpoint-01 */
+ /* from here blog page start */
+
+ h2 {
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .container-01 {
+      margin-top: 40px;
+    text-align: center;
+  }
+  img {
+    width: 400px;
+    margin-bottom: 10px;
+
+  }
+  .childbox {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-left: 20px;
+    text-align: left;
+  }
+  .button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #17bb3d;
+    border-radius: 90px;
+    padding: 10px 25px;
+    margin-top: 5px;
+  }
+  .bigcontainer{
+      text-align: center;
+
+  }
+  .childbox-02 {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    padding-right: 10px;
+  }
+  .chldbox-03{
+    vertical-align: top;
+    padding-right: 30px;
+  }
+  .button2{
+    display: inline-block;
+    color: #17bb3d;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  
